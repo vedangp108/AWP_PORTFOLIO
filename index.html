@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedang Pujari | Futuristic Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+    <h2 class="loader-text"><span class="left">&lt;</span>Vedang/Pujari<span class="right">&gt;</span></h2>
+  </div>
+
+  <header class="navbar">
+    <div class="logo"><span class="left">&lt;</span>Vedang/Pujari<span class="right">&gt;</span></div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="burger">☰</div>
+  </header>
+
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <img src="profile.jpg" alt="Vedang" class="profile-pic">
+      <h1>Hi, I’m <span class="glow">Vedang Pujari</span></h1>
+      <h2><span id="typed"></span></h2>
+      <p>🚀 Backend Developer | Data Engineer | AI Enthusiast | IoT Club VP</p>
+      <a href="IIIC VEDANG PUJARI RESUME.pdf" download class="btn">📄 Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="glass-section" data-aos="fade-right">
+    <h2>👨‍🚀 About Me</h2>
+    <p>
+      Backend-focused Computer Science student and Vice President of the IoT Club with experience in scalable app development, team mentorship, and event leadership.
+      Interned at AWS on data engineering projects and developed ML-Django web applications. Skilled in bridging students and professionals, aiming to enhance industry connections,
+      placement opportunities, and student engagement through technical expertise and leadership.
+    </p>
+  </section>
+
+  <section id="skills" class="skills" data-aos="fade-up">
+    <h2>🛠 Skills</h2>
+    <div class="skills-category">
+      <h3>Programming Languages</h3>
+      <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+        <div class="skill">SQL</div>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h3>Web Development</h3>
+      <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Django</div>
+      </div>
+    </div>
+    <div class="skills-category">
+      <h3>Cloud & Tools</h3>
+      <div class="skills-grid">
+        <div class="skill">AWS</div>
+        <div class="skill">Git</div>
+        <div class="skill">Linux</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="timeline" data-aos="fade-up">
+    <h2>🎓 Education</h2>
+    <div class="timeline-item left">
+      <h3>B.Tech CSE</h3>
+      <p>PCET’s Pimpri Chinchwad University (2023 - 2027) | CGPA: 8.5</p>
+    </div>
+    <div class="timeline-item right">
+      <h3>Class XII</h3>
+      <p>Mount Saint Ann High School | 2021 - 2023 | 74%</p>
+    </div>
+    <div class="timeline-item left">
+      <h3>Class X</h3>
+      <p>Podar International School | 2020 - 2021 | 80%</p>
+    </div>
+  </section>
+
+  <section id="experience" class="glass-section" data-aos="zoom-in">
+    <h2>💼 Experience</h2>
+    <div class="card">
+      <h3>AWS Data Engineering Intern</h3>
+      <p>Jul 2024 – Sep 2024</p>
+      <p>Built & optimized data pipelines using AWS S3 & Lambda. Gained hands-on cloud experience and strengthened problem-solving skills.</p>
+    </div>
+  </section>
+
+  <section id="hobbies" class="hobbies" data-aos="fade-up">
+    <h2>🎯 Hobbies</h2>
+    <div class="hobby-grid">
+      <div class="hobby">⚽ Football</div>
+      <div class="hobby">🎵 Music</div>
+      <div class="hobby">📚 Reading</div>
+      <div class="hobby">💻 Coding</div>
+      <div class="hobby">🥋 Karate</div>
+      <div class="hobby">🥋 Taekwondo</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects" data-aos="fade-right">
+    <h2>🚀 Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="credgenix.jpg" alt="CREDGENIX" class="project-img">
+        <div class="card-front">CREDGENIX</div>
+        <div class="card-back">
+          AI Credit Card Recommendation Tool.<br>Tools: Azure OpenAI, Python, React.<br><a href="https://github.com/Vedangp108/CREDGENIX" target="_blank">🔗 GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="saferide.jpg" alt="Safe Ride" class="project-img">
+        <div class="card-front">Safe Ride</div>
+        <div class="card-back">
+          Women’s Safety App with SOS & Maps.<br>Tools: React, Django, Google Maps.<br><a href="https://github.com/Vedangp108/SafeRide" target="_blank">🔗 GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="chatbot.jpg" alt="College Chatbot" class="project-img">
+        <div class="card-front">College Chatbot</div>
+        <div class="card-back">
+          Winner at Project Expo 2024.<br>AI-powered chatbot for student support.<br><a href="https://github.com/Vedangp108/CollegeChatbot" target="_blank">🔗 GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="glass-section" data-aos="fade-left">
+    <h2>📜 Certificates</h2>
+    <div class="cert-grid">
+      <div class="cert">Red Hat OpenShift (DO101)</div>
+      <div class="cert">Foundations of Cybersecurity (Google)</div>
+      <div class="cert">Full-Stack Development with Django (Coursera)</div>
+      <div class="cert">OCI AI Foundations (Oracle)</div>
+    </div>
+  </section>
+
+  <footer id="contact" class="contact">
+    <h2>📩 Get In Touch</h2>
+    <p class="contact-text">
+      I’m always open to new opportunities, collaborations, or just a friendly chat.
+    </p>
+    <div class="contact-info">
+      <p>📧 <a href="mailto:vedangpujari108@gmail.com">vedangpujari108@gmail.com</a></p>
+      <p>🌐 <a href="https://www.linkedin.com/in/vedang-pujari" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/Vedangp108" target="_blank">GitHub</a></p>
+    </div>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/vedang-pujari" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Vedangp108" target="_blank">GitHub</a>
+    </div>
+    <p class="footer-logo"><span class="left">&lt;</span>Vedang/Pujari<span class="right">&gt;</span> © 2025</p>
+  </footer>
+
+  <script>
+    window.addEventListener("load", () => {
+      const preloader = document.getElementById("preloader");
+      preloader.classList.add("fade-out");
+      setTimeout(() => { preloader.style.display = "none"; }, 800);
+    });
+
+    new Typed("#typed", {
+      strings: ["Backend Developer", "Data Engineer", "AI Enthusiast", "Futuristic Innovator"],
+      typeSpeed: 80,
+      backSpeed: 40,
+      loop: true
+    });
+
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    burger.addEventListener('click', () => nav.classList.toggle('nav-active'));
+
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-links a");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(sec => {
+        const secTop = sec.offsetTop - 90;
+        if (pageYOffset >= secTop) current = sec.getAttribute("id");
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) link.classList.add("active");
+      });
+    });
+
+    particlesJS("particles-js", {
+      particles: { number: { value: 80 }, color: { value: "#00ffe7" }, size: { value: 3 }, move: { speed: 2 } },
+      interactivity: { events: { onhover: { enable: true, mode: "repulse" } } }
+    });
+
+    AOS.init({ duration: 900, once: true });
+  </script>
+</body>
+</html>
